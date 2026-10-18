@@ -387,25 +387,9 @@ The following items are designed and planned but not yet implemented:
 
 # AES-128 Decryption Core — Simulation Waveforms
 
-**Group B | CDAC Project | Zynq-7000 SoC**
+**Group B | CDAC Project 
 **Team:** Tithi · Prasanna · Shreyas
-**Standard:** NIST FIPS-197 | **Simulator:** Icarus Verilog + VCD
-
----
-
-## How to Re-Run All Simulations
-
-```bash
-bash run_all_tb.sh
-```
-
-> This one command compiles all modules, runs all testbenches, generates `.vcd` files,
-> and produces the PNG waveform images inside `waveforms/`.
-
-To open any VCD interactively in GTKWave:
-```bash
-gtkwave wave_aes_inv_cipher.vcd
-```
+**Standard:** NIST FIPS-197 |
 
 ---
 
@@ -413,12 +397,12 @@ gtkwave wave_aes_inv_cipher.vcd
 
 | # | Module Tested | Test Cases | Result |
 |:--|:---|:---:|:---:|
-| TB1 | `inv_shift_rows` | 1 | ✅ PASS |
-| TB2 | `inv_sub_bytes` | 3 | ✅ PASS |
-| TB3 | `inv_mix_columns` | 2 | ✅ PASS |
-| TB4 | `key_expansion` | 2 | ✅ PASS |
-| TB5 | `aes_inv_cipher` (full core) | 1 | ✅ PASS |
-| **Total** | | **9** | **✅ All Passed** |
+| TB1 | `inv_shift_rows` | 1 | PASS |
+| TB2 | `inv_sub_bytes` | 3 | PASS |
+| TB3 | `inv_mix_columns` | 2 |  PASS |
+| TB4 | `key_expansion` | 2 | PASS |
+| TB5 | `aes_inv_cipher` (full core) | 1 | PASS |
+| **Total** | | **9** | **All Passed** |
 
 ---
 
@@ -644,4 +628,4 @@ Cycle 15: IDLE       → FSM resets, ready for next decryption
 
 ---
 
-*Group B — AES-128 Decryption Core | CDAC Project | October 2026*
+
