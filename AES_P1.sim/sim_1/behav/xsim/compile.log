@@ -1,0 +1,14 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/prasanna/Xilinx_workspa/CDAC_Proj/AES_P1/rtl/aes_inv_cipher.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module aes_inv_cipher
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/prasanna/Xilinx_workspa/CDAC_Proj/AES_P1/rtl/inv_mix_columns.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module inv_mix_columns
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/prasanna/Xilinx_workspa/CDAC_Proj/AES_P1/rtl/inv_shift_rows.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module inv_shift_rows
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/prasanna/Xilinx_workspa/CDAC_Proj/AES_P1/rtl/inv_sub_bytes.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module inv_sub_bytes
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/prasanna/Xilinx_workspa/CDAC_Proj/AES_P1/rtl/key_expansion.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module key_expansion
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/prasanna/Xilinx_workspa/CDAC_Proj/AES_P1/tb/tb_aes_inv_cipher.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_aes_inv_cipher
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/prasanna/Xilinx_workspa/CDAC_Proj/AES_P1/AES_P1.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

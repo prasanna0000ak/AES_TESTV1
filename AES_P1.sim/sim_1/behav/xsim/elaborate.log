@@ -1,0 +1,29 @@
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /home/prasanna/Xilinx_Vivado/Vivado/2023.2/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_aes_inv_cipher_behav xil_defaultlib.tb_aes_inv_cipher xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "/home/prasanna/Xilinx_workspa/CDAC_Proj/AES_P1/rtl/aes_inv_cipher.v" Line 4. Module aes_inv_cipher doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/prasanna/Xilinx_workspa/CDAC_Proj/AES_P1/rtl/key_expansion.v" Line 5. Module key_expansion doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/prasanna/Xilinx_workspa/CDAC_Proj/AES_P1/rtl/inv_shift_rows.v" Line 7. Module inv_shift_rows doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/prasanna/Xilinx_workspa/CDAC_Proj/AES_P1/rtl/inv_sub_bytes.v" Line 5. Module inv_sub_bytes doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/prasanna/Xilinx_workspa/CDAC_Proj/AES_P1/rtl/inv_mix_columns.v" Line 9. Module inv_mix_columns doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/prasanna/Xilinx_workspa/CDAC_Proj/AES_P1/rtl/aes_inv_cipher.v" Line 4. Module aes_inv_cipher doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/prasanna/Xilinx_workspa/CDAC_Proj/AES_P1/rtl/key_expansion.v" Line 5. Module key_expansion doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/prasanna/Xilinx_workspa/CDAC_Proj/AES_P1/rtl/inv_shift_rows.v" Line 7. Module inv_shift_rows doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/prasanna/Xilinx_workspa/CDAC_Proj/AES_P1/rtl/inv_sub_bytes.v" Line 5. Module inv_sub_bytes doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/prasanna/Xilinx_workspa/CDAC_Proj/AES_P1/rtl/inv_mix_columns.v" Line 9. Module inv_mix_columns doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.key_expansion
+Compiling module xil_defaultlib.inv_shift_rows
+Compiling module xil_defaultlib.inv_sub_bytes
+Compiling module xil_defaultlib.inv_mix_columns
+Compiling module xil_defaultlib.aes_inv_cipher
+Compiling module xil_defaultlib.tb_aes_inv_cipher
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_aes_inv_cipher_behav

@@ -1,0 +1,11 @@
+Time resolution is 1 ps
+--------------------------------------------------
+Starting Testbench: AES-128 InvCipher Core (Step 5)
+--------------------------------------------------
+[RESULT] TEST 1 (FIPS-197 Appendix B Decryption): PASS
+  Plaintext Result: 3243f6a8885a308d313198a2e0370734
+--------------------------------------------------
+SUMMARY - PASS: 1 | FAIL: 0
+ALL TESTS PASSED
+--------------------------------------------------
+$finish called at time : 165 ns : File "/home/prasanna/Xilinx_workspa/CDAC_Proj/AES_P1/tb/tb_aes_inv_cipher.v" Line 87
